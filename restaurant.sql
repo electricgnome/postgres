@@ -48,5 +48,15 @@
 
 -- SELECT name FROM restaurant WHERE last_ate < '2018-03-20' AND stars =5;
 
+-- SELECT name, distance FROM restaurant ORDER BY distance;
 
+-- SELECT name, stars, distance FROM restaurant WHERE stars = 5 ORDER BY distance limit 2;
+
+-- SELECT name, stars, distance FROM restaurant WHERE stars = 5 ORDER BY stars limit 2;
+
+-- SELECT name, stars, distance FROM restaurant WHERE distance < 10 AND stars =5 ORDER BY distance limit 2;
+
+-- SELECT count(*) FROM restaurant;
+
+-- SELECT category, count(category) FROM restaurant GROUP BY category;
 
