@@ -60,3 +60,10 @@
 
 -- SELECT category, count(category) FROM restaurant GROUP BY category;
 
+-- SELECT category, to_char(AVG(stars), '99999999999999999D99') as "average rating" FROM restaurant GROUP BY category;
+
+-- SELECT category, to_char(MAX(stars), '9D9') as "Largest Rating" FROM restaurant GROUP BY category;
+
+
+-- SELECT title, author.name FROM article INNER JOIN author on article.author_id = author.id;
+
